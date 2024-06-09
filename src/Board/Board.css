@@ -1,0 +1,54 @@
+.container{
+    width: 420px;
+    position: fixed;
+    left: 33rem;
+    top: 10rem;
+}
+
+.row{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+h4{
+    font-size: 30px;
+    text-align: center;
+}
+
+.draw h4{
+    color: crimson;
+    font-size: 30px;
+    text-align: center;
+}
+
+.win{
+    font-size: 40px;
+    font-weight: 900;
+    color: green;
+    text-align: center;
+}
+
+.win button, .draw button{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: chocolate;
+    font-size: 20px;
+}
+
+.win button{
+    margin-top: 50px;
+}
+
+.draw button{
+    position: relative;
+    left: 125px;
+}
