@@ -75,7 +75,9 @@ const Board = () => {
       ) : isDraw ? (
         <div className="draw">
           <h4>No winner! Please Play Again.</h4>
-          <button onClick={handleReset}>Play again</button>
+          <div className='draw-button'>
+            <button onClick={handleReset}>Play again</button>
+          </div>
         </div>
       ) : (
         <>
